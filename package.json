@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "codelap to practice the creation of node projects an execute Js files",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "#(.*)": "<rootDir>/node_modules/$1"
+    }
   },
   "repository": {
     "type": "git",

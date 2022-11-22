@@ -1,1 +1,1 @@
-module.exports = add;
+export default add;
