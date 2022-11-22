@@ -1,0 +1,22 @@
+{
+  "name": "node-code-lab",
+  "version": "1.0.0",
+  "description": "codelap to practice the creation of node projects an execute Js files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ada-school/node-fundamentals-code-lab.git"
+  },
+  "author": "Sergio Marentes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ada-school/node-fundamentals-code-lab/issues"
+  },
+  "homepage": "https://github.com/ada-school/node-fundamentals-code-lab#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
